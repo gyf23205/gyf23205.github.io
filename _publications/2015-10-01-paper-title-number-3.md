@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 3"
+title: "Physics-informed Anomaly Detection for Unmanned Aerial Vehicles"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
+permalink: https://ieeexplore.ieee.org/abstract/document/11123726?casa_token=lYP5PbFULT0AAAAA:_Ve-oHdzJt6uBP8hus1JUXtPjhk9qse9h9Dx-VvMHbnVcZ4sfEbInnPR3PHSn-PHGgH98VAA
+excerpt: 'Physics-informed deep learning framwork for UAV runtime anomaly detection.'
+date: 2025-10-01
 venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+paperurl: 'http://academicpages.github.io/files/PIAD.pdf'
+citation: 'Guo, Yifan, Kartik A. Pant, and Inseok Hwang. "Physics-informed Anomaly Detection for Unmanned Aerial Vehicles." IEEE Robotics and Automation Letters (2025).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+The secure operation of Unmanned Aerial Vehicle (UAV) systems requires assurance of safety and reliability. However, their security aspect can be challenged by various unexpected anomalies, which can significantly compromise a UAV's performance or lead to catastrophic failures. The UAV's runtime safety assurance in dynamic environments remains an open problem. To address this challenge, we propose a novel physics-informed anomaly detection framework called Physics-informed Prediction for Detection (PIPD) and instantiate the framework into two specific models, PIPDall and PIPDres. The proposed framework efficiently integrates the knowledge of physical dynamics into a deep anomaly detection model, exhibiting significantly better detection accuracies and a superior generalization ability to unseen anomalies. Unlike typical physics-informed frameworks, which often sharpen the loss landscape, our framework further smoothens it, thereby facilitating an efficient training process. We validate our framework using emulated Global Navigation Satellite System (GNSS) spoofing attacks with linear and sinusoidal profiles, which are covered under different noise levels. The simulation results present a performance improvement of up to 17.77% in the ROC-AUC score of our models compared to the baselines. Through real-world experiments, we confirm the effectiveness of our framework against multi-noise GNSS spoofing attacks and extend our validation to other complex scenarios, including aperiodic GNSS attacks and wind disturbance.
