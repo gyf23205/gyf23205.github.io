@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 2"
+title: "iMTSP: Solving min-max multiple traveling salesman problem with imperative learning"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: https://ieeexplore.ieee.org/abstract/document/10802039
+excerpt: 'Imperative learning framework for multiple traveling salesmen problem.'
+date: 2024-10-18
+venue: 'Conference 1'
+paperurl: 'http://academicpages.github.io/files/iMTSP.pdf'
+citation: 'Guo, Yifan, Zhongqiang Ren, and Chen Wang. "iMTSP: Solving min-max multiple traveling salesman problem with imperative learning." 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2024.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This paper considers a Min-Max Multiple Traveling Salesman Problem (MTSP), where the goal is to find a set of tours, one for each agent, to collectively visit all the cities while minimizing the length of the longest tour. Though MTSP has been widely studied, obtaining near-optimal solutions for large-scale problems is still challenging due to its NP-hardness. Recent efforts in data-driven methods face challenges of the need for hard-to-obtain supervision and issues with high variance in gradient estimations, leading to slow convergence and highly sub-optimal solutions. We address these issues by reformulating MTSP as a bilevel optimization problem, using the concept of imperative learning (IL). This involves introducing an allocation network that decomposes the MTSP into multiple single-agent traveling salesman problems (TSPs). The longest tour from these TSP solutions is then used to self-supervise the allocation network, resulting in a new self-supervised, bilevel, end-to-end learning framework, which we refer to as imperative MTSP (iMTSP). Additionally, to tackle the high-variance gradient issues during the optimization, we introduce a control variate-based gradient estimation algorithm. Our experiments showed that these innovative designs enable our gradient estimator to converge 20× faster than the advanced reinforcement learning baseline, and find up to 80% shorter tour length compared with Google OR-Tools MTSP solver, especially in large-scale problems (e.g. 1000 cities and 15 agents).
