@@ -1,8 +1,8 @@
 ---
 title: "Gaussian transformation enhanced semi-supervised learning for sleep stage classification"
 collection: publications
-category: Journal
-permalink: https://link.springer.com/article/10.1186/s40537-023-00758-9
+category: manuscripts
+permalink: /publications/CTL/
 excerpt: 'A semi-supervised learning algorithm for personlized sleep stage classification.'
 date: 2023-05-01
 venue: 'Journal of Big Data'

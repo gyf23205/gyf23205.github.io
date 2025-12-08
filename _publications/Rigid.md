@@ -1,8 +1,8 @@
 ---
 title: "Range-Based Multi-Robot Integrity Monitoring For Cyberattacks and Faults: An Anchor-Free Approach"
 collection: publications
-category: Journal
-permalink: https://ieeexplore.ieee.org/abstract/document/10854616
+category: manuscripts
+permalink: /publications/Rigid/
 excerpt: 'Rigid body theory-based multi-robot integrity monitoring.'
 date: 2025-01-27
 venue: 'IEEE Robotics and Automation Letters '

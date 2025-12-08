@@ -2,7 +2,7 @@
 title: "iMTSP: Solving min-max multiple traveling salesman problem with imperative learning"
 collection: publications
 category: conferences
-permalink: https://ieeexplore.ieee.org/abstract/document/10802039
+permalink: /publications/iMTSP/
 excerpt: 'Imperative learning framework for multiple traveling salesmen problem.'
 date: 2024-10-18
 venue: 'Conference 1'

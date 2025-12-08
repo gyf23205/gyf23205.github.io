@@ -1,8 +1,8 @@
 ---
 title: "Imperative learning: A self-supervised neuro-symbolic learning framework for robot autonomy"
 collection: publications
-category: Journal
-permalink: /publication/2024-02-17-paper-title-number-4
+category: manuscripts
+permalink: /publications/IL/
 excerpt: 'A self-supervised framework for robot learning.'
 date: 2025-08-05
 venue: 'International Journal of Robotics Research'

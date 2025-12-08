@@ -2,7 +2,7 @@
 title: "Physics-informed Anomaly Detection for Unmanned Aerial Vehicles"
 collection: publications
 category: manuscripts
-permalink: https://ieeexplore.ieee.org/abstract/document/11123726?casa_token=lYP5PbFULT0AAAAA:_Ve-oHdzJt6uBP8hus1JUXtPjhk9qse9h9Dx-VvMHbnVcZ4sfEbInnPR3PHSn-PHGgH98VAA
+permalink: /publications/PIAD/
 excerpt: 'Physics-informed deep learning framwork for UAV runtime anomaly detection.'
 date: 2025-10-01
 venue: 'Journal 1'
