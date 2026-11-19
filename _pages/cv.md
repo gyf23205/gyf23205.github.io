@@ -9,77 +9,79 @@ redirect_from:
 
 {% include base_path %}
 
+[Download my resume (PDF)](/files/Yifan_Guo_Resume.pdf)
+
 Education
 ======
-* Ph.D in Electrical and Computer Engineering, Purdue University, 2028 (expected)
-* M.S. in Electrical and Computer Engineering, University of Pittsburgh, 2022
-* B.S. in Computer Science, Jiangsu University, China, 2020
-
+* Ph.D. in Electrical and Computer Engineering, Purdue University, Sept. 2023 – May 2028 (expected)
+* M.S. in Electrical and Computer Engineering, University of Pittsburgh, Sept. 2021 – Jan. 2023
+* B.S. in Computer Science, Jiangsu University, China, Sept. 2016 – Jan. 2020
 
 Research Experience
 ======
-### Workload-aware Human-autonomy Teaming  
+### Latent World Models for Lunar Rover Fault Detection, Isolation, and Recovery (FDIR)
+**May 2026 – Present**  
+[Code](https://github.com/gyf23205/Rover_FDIR)
+- Developed a unified framework for anomaly detection, classification, and root cause analysis in dynamic systems (IEEE Transactions on Neural Networks and Learning Systems (TNNLS), under review).
+- Developed a Joint-Embedding Predictive Architecture (JEPA) world model that learns robot dynamics in a latent space, improving prediction accuracy and interpretability.
+- Built a high-fidelity NVIDIA Isaac Sim environment and dataset of extreme lunar terrain, rover operating conditions, and rover fault models.
+- Deployed the framework for runtime monitoring in Hyundai–Kia's lunar rover project, achieving over 93% area under the receiver operating characteristic curve (AUC-ROC) and over 90% F1 score.
+- Earlier work: modeled unmanned aerial vehicle (UAV) dynamics with physics-informed deep learning for anomaly detection; validated in simulation (Gazebo) and on Crazyflie hardware. Published in IEEE Robotics and Automation Letters (RA-L), 2025.
+
+### Koopman-Based Policy Transfer and LLM Decomposition
+**Apr. 2025 – Present**  
+[Code](https://github.com/gyf23205/Koopman_decompose_ext)
+- Proposed a Koopman-theory-based method to decompose neural network controllers into reusable modules with theoretical guarantees.
+- Enabled rapid policy transfer across tasks, environments, and embodiments on quadruped robots and UAVs, in simulation and real-world experiments.
+- Achieved up to 56% better convergence and 81% better jump-start than baselines ("Padded Koopman Continual Reinforcement Learning: Unified Policy Preservation and Decomposition," IEEE Transactions on Robotics (T-RO), under review).
+- Extended the method to the functional decomposition of large language models (LLMs) (IEEE TNNLS, under review).
+
+### Workload-Aware Human-Autonomy Teaming
 **May 2025 – Aug. 2025**  
 [Video](https://youtu.be/tOOq3-FIZnY)
-- Led the design and implementation for both the host and user GUIs for our human-autonomy teaming system for a rescue scenario. The system uses eye trackers and ECG sensors to estimate users’ concentration status and uses a learning-based temporal logic to adaptively allocate the coordination tasks.  
-- Built up the communication channel and synchronized the data flows between devices.  
-- Tested our workload-aware human autonomy teaming framework on human subjects and supported the final presentation to the sponsors.
+- Built a human-autonomy teaming system for a rescue scenario that estimates operator workload from eye-tracking and electrocardiogram (ECG) data and adaptively allocates coordination tasks with learning-based temporal logic.
+- Led development of the host and user graphical user interfaces (GUIs) and the multi-device data pipeline, and ran human-subject tests for the sponsor demonstration.
 
-### Physics-informed Deep Learning for Anomaly Detection  
-**Jan. 2023 – Present**  
-[Code](https://github.com/gyf23205/FIAD)
-- Led the development of a physics-informed deep learning anomaly detection framework, focusing on the runtime assurance of UAVs. Results are published in IEEE Robotics and Automation Letters (RA-L).  
-- Combined the prior knowledge of system dynamics with a deep anomaly detector, significantly improving the detector’s robustness, accuracy, and loss landscape sensitivity.  
-- Extended the algorithm for anomaly identification and relief. Applied the proposed method to both simulated (Gazebo) and real-world (Crazyflie) scenarios. Improved up to 12% detection AUC score over the advanced baseline. The magnitude of the condition number of the parameter Hessians drops from 208.9 to 31.5.
-
-### Imperative Learning Solution for Robots Route Planning  
+### Imperative Learning for Multi-Agent Autonomy (iMTSP)
 **Sept. 2022 – Feb. 2023**  
 [Code](https://github.com/sair-lab/iMTSP)
-- Led the development of a self-supervised deep learning model for the NP-hard multiple traveling salesmen problem. Results are published in the International Conference on Intelligent Robots and Systems (IROS).  
-- Achieved near-optimal routes for multiple traveling salesman problems with up to thousands of cities, which is computationally prohibitive for any classic method.  
-- Outperformed state-of-the-art reinforcement learning-based and heuristic baselines with the proposed algorithm. With 5% computing time, our method achieved 80% better results than Google’s meta-heuristic approach on large-scale problems with 500 or more cities.
+- Co-developed imperative learning, a self-supervised neuro-symbolic framework that uses symbolic reasoning (logic, physics, geometry) to remove the need for labels. Published in the International Journal of Robotics Research (IJRR), 2025.
+- Led iMTSP, applying it to the NP-hard min-max multiple traveling salesman problem. Published in the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024.
+- Produced near-optimal routes for thousands of cities, a scale prohibitive for classical solvers.
+- Outperformed state-of-the-art reinforcement learning (RL) and heuristic baselines; with 500 or more cities, achieved 80% better solutions than Google OR-Tools' metaheuristic in 5% of its computation time.
+- Follow-up work, NS-RTW, extends the approach to routing with time windows. Published in IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2026.
 
-### VLM-Neural-Symbolic Framework for Multi-robot Coverage  
-**Aug. 2024 – Present**  
-[Code](https://github.com/gyf23205/NS_PC)
-- Combined VLM, CNN, and MPC and proposed a VLM-Neural-Symbolic framework for multi-robot systems to accomplish the persistent coverage task in unseen environments with obstacles.  
-- Overcame two major difficulties of reinforcement-learning-based coverage policy: (1) zero-shot generalization to unseen environments, (2) guaranteed connectivity and collision avoidance.  
-- Built up high-fidelity simulation environments in Isaac Sim to validate the proposed method.
-
-### Imperative Learning: A Self-supervised Robotics Learning Framework  
-**Sept. 2022 – Feb. 2023**  
-[Paper link](https://journals.sagepub.com/doi/full/10.1177/02783649251353181?casa_token=MIka0_oKH-IAAAAA%3A1Pe2QXXwPRUwDhy5QVOJom8vDjDN1xERrb7kpJlBHn5YcmBpWXDnCOkHtE7E3fFBHGyLflqSHFxb)
-- Built the self-supervised neural-symbolic robotics learning framework: Imperative learning, in discrete optimization scenarios. Results are published in the International Journal of Robotics Research (IJRR).  
-- Enhanced learning-based methods with symbolic methods. Overcame the label-intensive obstacles by taking advantage of symbolic reasoning concerning logical reasoning, physical principles, geometric analysis, etc.
-
-### EEG-based Human Sleeping Stage Estimation  
+### EEG-Based Human Sleep Stage Estimation
 **May 2021 – Aug. 2022**  
-[Paper link](https://link.springer.com/article/10.1186/s40537-023-00758-9)
-- Proposed a semi-supervised cluster-then-label algorithm to tackle the EEG distribution drifting challenge between human users. The accuracy and F1 scores were improved by 7.17 ± 6.15% and 9.17 ± 4.98%, respectively, compared with the state-of-the-art baseline. The results are published in the Journal of Big Data.  
-- Coordinated the cooperation between the AI team, hardware team, and the biology team. Supervised junior researchers during the study. Significantly contributed to the commercialization process of the research.  
-- Collected and processed real sleeping data from human subjects.
+[Paper](https://doi.org/10.1186/s40537-023-00758-9)
+- Proposed a semi-supervised cluster-then-label algorithm to handle the distribution shift of electroencephalogram (EEG) data between human subjects, improving accuracy and F1 score by 7.17 ± 6.15% and 9.17 ± 4.98% over the state-of-the-art baseline. Published in the Journal of Big Data, 2023.
+- Coordinated the AI, hardware, and biology teams, and supervised junior researchers.
+- Collected and processed sleep data from human subjects.
 
-Work Experience
+Industry Experience
 ======
-* Summer 2019:  Research Intern
-  * HanWang Technology, Beijing, China
-  * Supervisor: Shuwei Shao
-  * Duties includes:
-    * Developed a prototype system with the Connectionist Temporal Classification algorithm to solve the problem of labelling unsegmented. sequence data.
-    * Implementedandtrainedahandwritingalgorithmrecognition model(Bi-LSTM+CTC).
-    * Delivered a presentation on the internal working principle of the CTC layer for the team.
-  
+### Research Intern, Hanwang Technology, Beijing, China
+**June 2019 – Aug. 2019**
+- Developed a prototype system using Connectionist Temporal Classification (CTC) to label unsegmented sequence data.
+- Implemented and trained a handwriting recognition model (bidirectional long short-term memory network (Bi-LSTM) + CTC).
+- Gave a technical presentation to the team on the internal mechanics of the CTC layer.
+
+Teaching
+======
+<ul>{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
 Skills
 ======
-* Deep learning programming
-  *  Python,PyTorch
-  *  TorchRL
-  *  PyTorchGeometric
-* Simulation
-  *  Gymnasium
-  *  Gazebo
-  *  IsaacSim
-  *  IsaacLab
-* Hardware
-  * ROS2
-  * Crazyflie
+* **Machine learning:** reinforcement learning, self-supervised and semi-supervised learning, world models, time-series anomaly detection, transfer learning, neuro-symbolic learning
+* **Robotics and autonomy:** UAVs, quadruped robots, planetary rovers, FDIR, multi-agent control and route planning, runtime safety monitoring, Koopman theory
+* **Tools:** Python, C++, PyTorch, ROS 2, NVIDIA Isaac Sim, Isaac Lab, Gazebo, Crazyflie, Ubuntu, Docker
+
+Publications
+======
+Full list on [Google Scholar](https://scholar.google.com/citations?user=oYBlfUUAAAAJ&hl=en).
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>

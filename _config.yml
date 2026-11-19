@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Yifan Guo's Personal Site"
 title_separator          : "-"
 name                     : &name "Yifan Guo"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Yifan Guo, Ph.D. student at Purdue University working on learning-based autonomy for UAVs, quadrupeds, and rovers"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://gyf23205.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "Yifan.jpg"
   name             : "Yifan Guo"
   pronouns         : # example: "she/her"  
-  bio              : "Third year PhD student in Purdue Univeristy FD&C/HS Lab "
+  bio              : "Fourth-year Ph.D. student at Purdue University, FD&C/HS Lab"
   location         : "West Lafayette"
   employer         : "Purdue University"
   uri              : # URL
@@ -87,6 +87,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  underreview:
+    title: 'Under Review'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
